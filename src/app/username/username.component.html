@@ -1,0 +1,30 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-sm-6">
+      <input type="text" class="form-control" [(ngModel)]="userName">
+    </div>
+    <div class="col-sm-4">
+      <button class="btn btn-danger" (click)="resetUsername()">Reset UserName</button>
+    </div>
+  </div>
+<br>
+  <div class="row">
+    <div class="col-sm-8">
+        <h5>{{ status }}</h5>
+    </div>
+  </div>
+
+</div>
+
+<div class="container">
+
+<hr>
+<div class="row">
+    <div class="col-sm-8">
+        <h3>Username:</h3>
+        <h4>{{ userName }}</h4>
+    </div>
+  </div>
+
+</div>
